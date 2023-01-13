@@ -1,0 +1,30 @@
+{
+    "name": "apollo-server-template",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "compile": "tsc",
+        "start": "npm run compile && node ./dist/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TeamParches/apollo-server-template.git"
+    },
+    "keywords": [],
+    "author": "manucabral",
+    "license": "GNUv3",
+    "bugs": {
+        "url": "https://github.com/TeamParches/apollo-server-template/issues"
+    },
+    "homepage": "https://github.com/TeamParches/apollo-server-template#readme",
+    "dependencies": {
+        "@apollo/server": "^4.3.0",
+        "graphql": "^16.6.0"
+    },
+    "devDependencies": {
+        "@types/node": "^18.11.18",
+        "typescript": "^4.9.4"
+    }
+}
